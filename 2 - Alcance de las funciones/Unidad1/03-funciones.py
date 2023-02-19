@@ -1,5 +1,20 @@
-def suma(a=2, b=3):
-    total = a / b
-    return total
+# print("Hola")
+# print("Mucho gusto")
+# print("Adiós")
 
-print(suma(b=2, a=8))
+# print("Hola")
+# print("Mucho gusto")
+# print("Adiós")
+
+# print("Hola")
+# print("Mucho gusto")
+# print("Adiós")
+def saludo(nombre='Romeo'):
+    print("Hola")
+    print("Mucho gusto " + nombre)
+    print("Adiós")
+    print()
+
+saludo()
+saludo('María')
+saludo('Pedro')

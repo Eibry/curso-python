@@ -1,9 +1,11 @@
-numero = 3
+nombre = 'Romeo'
 
-def funcion():
-    global numero
-    numero = 7
-    print(numero)
-
-print(numero)
-funcion()
+def saludo():
+    global nombre
+    nombre = 'Pedro'
+    print("Hola")
+    print("Mucho gusto " + nombre)
+    
+print(nombre)
+saludo()
+print(nombre)

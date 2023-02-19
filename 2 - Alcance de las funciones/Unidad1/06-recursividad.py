@@ -1,9 +1,8 @@
-def factorial(n):
-    print(n)
-    if n == 1:
-        return 1
-    return n * factorial(n - 1)
+def saludo():
+    nombre = input("¿Cómo te llamas? ")
+    print("Mucho gusto " + nombre)
+    if nombre == '':
+        return
+    saludo()
 
-n = int(input("Escribe un número entero: "))
-
-print(factorial(n))
+saludo()
